@@ -1,0 +1,29 @@
+{
+    "name": "ionepub/region",
+    "description": "根据国家统计局统计用区划代码查询地区信息，目前数据最小单位为街道、乡镇，支持编号查询/所在省市区查询/下级查询/中文搜索。 A Chinese region search helper.",
+	"keywords": [
+		"中国地区信息查询辅助类",
+		"统计用区划代码、城乡划分代码查询",
+		"A Chinese region search helper",
+		"省",
+		"市",
+		"县",
+		"区",
+		"街道",
+		"乡镇"
+	],
+    "type": "library",
+    "autoload": {
+		"psr-4": {"Ionepub\\": "src/"}
+	},
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jerry Lan",
+            "email": "1577628623@qq.com"
+        }
+    ],
+    "require": {
+		"catfan/medoo": ">=1.5"
+	}
+}
